@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5053830acb49d256a5da7002c0ddba82",
+    "content-hash": "38fde87c6d4dca64401e7509635f2444",
     "packages": [
         {
             "name": "jfcherng/php-mb-string",
@@ -95,7 +95,46 @@
                 }
             ],
             "description": "A longest sequence matcher. The logic is primarily based on the Python difflib package.",
-            "time": "2020-03-06T12:50:28+00:00"
+            "time": "2020-03-06T13:39:36+00:00"
+        },
+        {
+            "name": "shaggy8871/console",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shaggy8871/console.git",
+                "reference": "6053cf8e37622b5f7cc03d10cca53e07338bcba2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shaggy8871/console/zipball/6053cf8e37622b5f7cc03d10cca53e07338bcba2",
+                "reference": "6053cf8e37622b5f7cc03d10cca53e07338bcba2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Console\\": "src/Console/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "J. Ginsberg",
+                    "email": "john.ginsberg@tristadeca.com"
+                }
+            ],
+            "description": "Console is a lightweight console framework for PHP",
+            "time": "2020-04-05T16:30:47+00:00"
         },
         {
             "name": "symfony/polyfill-iconv",
@@ -274,6 +313,12 @@
             "keywords": [
                 "Xdebug",
                 "performance"
+            ],
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                }
             ],
             "time": "2020-03-01T12:26:26+00:00"
         },
